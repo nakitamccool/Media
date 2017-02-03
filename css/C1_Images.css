@@ -1,0 +1,29 @@
+		body{
+			font-family: roboto;
+		}
+		div{
+			 
+			vertical-align: top;
+			display: inline-block;/* to align images side by side */
+			width:500px;
+			margin:0 auto 0 auto;
+			background-color: #99CCFF;
+			background-size: cover;
+			padding: 20px;
+			border:2px solid black;
+			border-radius: 10px;
+		}
+		img{
+			float: right;/*float image to right of text*/
+			margin: 0 20px 20px 20px;
+			border:2px solid black;
+		}
+		#left{
+			float: left;/*float image to left of text*/
+			margin: 0 20px 20px 20px;
+			border:2px solid black;
+		}
+		img{
+			width: 250px;
+			height: 250px;
+		}
